@@ -1,0 +1,31 @@
+.button {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: #5F9EA0;
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+}
+
+.field { 
+    display: flex; 
+    flex-direction: column;
+    font-size: larger;
+    width: 50rem;
+}
+
+.request__delete { 
+    background-color: #9689e5;
+    color: lightgoldenrodyellow;
+}
+
+.list__items {
+    padding: .5rem;
+}
+
+.serviceRequests {
+    /* border: 2px dotted #5F9EA0; */
+}
+
+li::before {
+    content: "🛁";
+}
